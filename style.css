@@ -53,6 +53,17 @@ NAVBAR ↓
     height: 40px;
 }
 
+.nav__logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav__logo--text {
+    font-size: 24px;
+    font-weight: 900;
+}
+
 nav {
     display: flex;
     padding-top: 32px;
