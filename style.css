@@ -64,6 +64,24 @@ nav {
     justify-content: space-between;
 align-items: center;
 }
+.nav__links {
+  display: flex;
+  align-items: center;
+}
+
+.nav__link {
+  margin-left: 24px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav__link--primary {
+  background-color: #6415ff;
+  color: white;
+  padding: 12px 32px;
+  border-radius: 9999px;
+}
 
 
 .btn__menu {
